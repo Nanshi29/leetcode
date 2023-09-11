@@ -13,7 +13,7 @@ public:
 	    int s=0;
 	    for(int i=0;i<n;i++)
 	    {
-	        s=s+arr[i];
+	        s+=arr[i];
 	    }
 	    return s;
 	    // code here
